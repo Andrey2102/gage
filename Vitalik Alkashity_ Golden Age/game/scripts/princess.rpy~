@@ -13,7 +13,7 @@ label princess:
     "*мелодия, которую играла эта девушка - была неизвестна тебе, но казалось, что ты слышал её бесчетное количество раз*"
     "*ты хотел подойти ближе, но только ты сделал шаг, как песнь оборвалась и девушка обратила на тебя своё внимание*"
     stop music
-    show prinorm at right
+    show princes_norm at right
     show vitnorm at left
     with slo
     "Девушка""Кто здесь?"
@@ -27,8 +27,6 @@ label princess:
             hide vitnorm
             show vitsmile at left
             with slo
-            hide prinorm
-            show pricute at right
             "*у тебя невольно вырвался смешок, но царевна не обратила на это внимание*"
             fa"А это не тебя папа хотел отправить на убийство дракона в лесу?"
             i"Что?"
@@ -53,7 +51,7 @@ label princess:
             show vitnorm at left
             with slo
             fa"Ладно, мне пора, да и тебе стоит выспаться."
-            hide pricute
+            hide princes_norm
             with slo
             i"Сука."
             "*с мыслями о том, что завтра тебя сожрут ты отправился в свою комнату*"
